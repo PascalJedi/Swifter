@@ -9,6 +9,11 @@
 
 If you're using Xcode 6 and above, Swifter can be installed by simply dragging the Swifter Xcode project into your own project and adding either the SwifteriOS or SwifterMac framework as an embedded framework.
 
+## Pod Installation 
+Evidently another project got the swifter name, but as long as you are not using that, you can override the GIT tag and add this project via pods
+
+pod 'Swifter', :git => 'https://github.com/mattdonnelly/Swifter.git'
+
 ### Usage
 
 Swifter can be used with the 3 different kinds of authentication protocols Twitter allows. You can specify which protocol to use as shown below. For more information on each of the authentication protocols, please check [Twitter OAuth Help](https://dev.twitter.com/oauth).
